@@ -9,7 +9,15 @@ window.onload = function(){
        flowField.animate(0);
     
 }
+const mouse = {
+    x: 0,
+    y: 0,
+}
 
+window.addEventListener('mousemove', function(e){
+    mouse.x = e.x;
+    mouse.y = e.y;
+});
 
 
 
