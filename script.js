@@ -1,1 +1,7 @@
-console.log("Project setup complete!");
+import utils from './utils'
+
+const canvas = document.querySelector('canvas')
+const c = canvas.getContext('2d')
+
+canvas.width = innerWidth
+canvas.height = innerHeight
