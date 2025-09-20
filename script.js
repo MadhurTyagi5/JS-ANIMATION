@@ -10,15 +10,7 @@ window.onload = function(){
     
 }
 
-const mouse = {
-    x: 0,
-    y: 0,
-}
 
-window.addEventListener('mousemove', function(e){
-    mouse.x = e.x;
-    mouse.y = e.y;
-});
 
 
 
